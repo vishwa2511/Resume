@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/bootstrapicon/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <a href="javascrit:; " class="logo"><span>v</span>ishwahari</a>
+                <ul id="sidemenu">
+                    <li><a href="javascrit:;">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="bi bi-x close" onclick="closemenu()"></i>
+                </ul>
+                <i class="bi bi-list menu" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h4>Hello, It's Me</h4>
+                <h1><span>v</span>ishwahari</h1>
+                <h3>And I'm a <span id="auto-text"></span></h3>
+
+            </div>
+
+
+        </div>
+        <div class="image-header"></div>
+    </div>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col">
+                    <div class="about-col-1-img"></div>
+                </div>
+                <div class="about-col">
+                    <h2 class="sub-title">About Me</h2>
+                    <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim alias molestiae
+                        tenetur, odio
+                        neque, sunt porro cupiditate consectetur sapiente magni optio dolorum possimus fuga asperiores
+                        aliquid quibusdam aperiam, illum animi.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designer Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current </span><br>Frontend Developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 </span><br>M.sc(IT) from Annamalai University in Chidambaram</li>
+                            <li><span>2018 </span><br>M.sc(IT) from Annamalai University in Chidambaram</li>
+                            <li><span>2016 </span><br>M.sc(IT) from Annamalai University in Chidambaram</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services" id="services">
+        <div class="container">
+            <h2 class="sub-title">My Services</h2>
+            <div class="services-list">
+                <div class="services-list-col">
+                    <div>
+                        <img src="./assets/css/web-design.png" alt="">
+                    </div>
+                    <div>
+                        <h3>
+                            Web Design
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quam dolore provident, omnis
+                            iusto
+                            laborum rem qui magni impedit labore</p>
+                    </div>
+                </div>
+
+                <div class="services-list-col">
+                    <div>
+                        <img src="./assets/css/programming.png" alt="">
+                    </div>
+                    <div>
+                        <h3>
+                            UI /UX Design
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quam dolore provident, omnis
+                            iusto
+                            laborum rem qui magni impedit labore</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">My Work</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./assets/css/work1.png" alt="">
+                    <div class="layer">
+                        <h3>Web Design</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam sit ad sunt blanditiis?
+                            Reprehenderit in, aperiam harum consectetur</p>
+                        <a href="">
+                            <img src="./assets/css/link.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/css/work2.png" alt="">
+                    <div class="layer">
+                        <h3>Web Design</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam sit ad sunt blanditiis?
+                            Reprehenderit in, aperiam harum consectetur</p>
+                        <a href="">
+                            <img src="./assets/css/link.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/css/work3.png" alt="">
+                    <div class="layer">
+                        <h3>Web Design</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam sit ad sunt blanditiis?
+                            Reprehenderit in, aperiam harum consectetur</p>
+                        <a href="">
+                            <img src="./assets/css/link.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="container">
+
+            <div class="contact-sec">
+                <h2 class="sub-title">Contact Me</h2>
+                <a href="tel:+919095747063"><i class="bi bi-telephone-fill"></i>919095747063</a>
+                <a href="mailto:vishwahari2@gmail.com"><i class="bi bi-envelope-at-fill"></i>vishwahari2@gmail.com</a>
+                <div class="social-media">
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <a href="" class="btn"> Download CV</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#auto-text', {
+            strings: ['Frontend Developer', 'UI/UX Designer '],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        const sidemenu = document.querySelector("#sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
